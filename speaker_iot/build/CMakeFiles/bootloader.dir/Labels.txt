@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/tkhtnkd/speaker_iot/build/CMakeFiles/bootloader
+D:/tkhtnkd/speaker_iot/build/CMakeFiles/bootloader.rule
+D:/tkhtnkd/speaker_iot/build/CMakeFiles/bootloader-complete.rule
+D:/tkhtnkd/speaker_iot/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/tkhtnkd/speaker_iot/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/tkhtnkd/speaker_iot/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/tkhtnkd/speaker_iot/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/tkhtnkd/speaker_iot/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/tkhtnkd/speaker_iot/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/tkhtnkd/speaker_iot/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

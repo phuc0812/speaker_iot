@@ -1,0 +1,35 @@
+menu "Example Configuration"
+
+    menu "Wifi Configuration"
+        config ESP_WIFI_SSID
+			string "WiFi SSID"
+			default "Redmi"
+			help
+				SSID (network name) to connect to.
+
+		config ESP_WIFI_PASSWORD
+			string "WiFi Password"
+			default "0932031580"
+			help
+				WiFi password (WPA or WPA2) to use.
+
+		config ESP_MAXIMUM_RETRY
+			int "Maximum retry"
+			default 5
+			help
+				Set the Maximum retry to avoid station reconnecting to the AP unlimited when the AP is really inexistent.
+    endmenu
+
+    menu "Broker"
+        config BROKER_URI
+            string "Broker URL"
+            default "mqtt://broker.hivemq.com:1883"
+            help
+                URL of an mqtt broker which this example connects to.
+
+		config BROKER_URL_FROM_STDIN
+        	bool
+        	default y if BROKER_URL = "FROM_STDIN"
+    endmenu
+
+endmenu
